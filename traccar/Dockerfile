@@ -21,7 +21,7 @@ RUN \
         xmlstarlet=1.6.1-r0 \
     \
     && curl -J -L -o /tmp/traccar.zip \
-      "https://github.com/traccar/traccar/releases/download/v5.4/traccar-other-5.4.zip" \
+      "https://github.com/traccar/traccar/releases/download/v6.10.0/traccar-other-6.10.0.zip" \
     \
     && mkdir -p /opt/traccar \
     && unzip -d /opt/traccar /tmp/traccar.zip \
