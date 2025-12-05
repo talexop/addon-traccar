@@ -29,8 +29,7 @@ comparison to installing any other Home Assistant add-on.
 1. Click the "Install" button to install the add-on.
 1. Start the "Traccar" add-on
 1. Check the logs of the "Traccar" add-on to see if everything went well.
-1. Click the "OPEN WEB UI" button and log in using `admin`/`admin`.
-1. Be sure to change the username, email, and password!
+1. Click the "OPEN WEB UI" button.
 
 ## Configuration
 
@@ -107,7 +106,7 @@ been done to reduce the number of open ports the add-on would create.
 
 By default, only the OsmAnd protocol (used by the Traccar Apps) and the API
 are enabled. If you want more protocols, you can do so, by adding entries
-to your `/config/traccar.xml` file.
+to your `traccar.xml` file in the add-on configuration folder.
 
 A list if all entries can be found here:
 
@@ -155,7 +154,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2022 Franck Nijhof
+Copyright (c) 2018-2024 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -186,5 +185,5 @@ SOFTWARE.
 [mariadb]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_mariadb
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-traccar/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html
 [traccar]: https://www.traccar.org
