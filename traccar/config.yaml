@@ -1,6 +1,6 @@
 ---
 name: Traccar
-version: dev5.41
+version: dev6.10.0
 slug: traccar
 description: Modern GPS Tracking Platform
 url: https://github.com/talexop/addon-traccar
